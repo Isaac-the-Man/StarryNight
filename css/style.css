@@ -1,0 +1,95 @@
+/* COLOR CODES */
+/* Primary: #212121, Light: #484848, Dark: #000000 */
+/* Secondary: #ffab00, Light: #ffdd4b, Dark: #c67c00 */
+
+body {
+    font-family: cursive;
+}
+
+header {
+  background-color: #000000;
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navlist {
+  float: left;
+}
+.navlist:hover {
+  border-bottom: solid #ffab00 2px;
+}
+.navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #212121;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  z-index: 10;
+  top: 0;
+}
+.nava {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+}
+body {
+  margin: 0px;
+}
+.content {
+  background-color: #e3e3e3;
+  margin: 0px;
+  overflow: auto;
+}
+footer {
+
+}
+
+#myHeader {
+  margin: 0px;
+}
+.fixed-bg {
+  background-image: url("../resources/headerImage.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:flex;
+  align-items: center;
+  justify-content: center
+}
+.heroTextDiv {
+  text-align: center;
+  opacity: 0.9;
+  text-decoration: underline;
+  margin: 0px;
+  color: white;
+}
+
+p {
+  margin: 20px;
+  padding: 0px;
+}
+.card {
+  max-width: 30vw;
+  background-color: #212121;
+  color: white;
+  margin: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.cardImg {
+  max-width: inherit;
+}
+.column {
+  float: left;
+  width: 33%;
+  /* border: solid red 2px; */
+}
